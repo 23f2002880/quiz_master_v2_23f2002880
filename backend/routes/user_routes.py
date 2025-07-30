@@ -310,7 +310,7 @@ def user_summary_api():
             })
     
     
-################CSV Export API#####################
+################Async CSV Export API#####################
 @user_routes.route("/api/user/export-csv", methods=["POST"])
 @jwt_required()
 def export_csv():
