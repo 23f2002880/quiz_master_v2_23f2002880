@@ -1,4 +1,4 @@
-<!-- src/components/AuthPanel.vue -->
+<!-- src/components/AuthPanel.vue JWT token based auth -->
 <template>
   <div class="container mt-5">
     <ul class="nav nav-tabs mb-3" role="tablist">
