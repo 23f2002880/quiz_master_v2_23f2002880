@@ -2,7 +2,7 @@
   <div class="container mt-5">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Admin Dashboard</a>
+        <a class="navbar-brand" href="#">Admin Summary</a>
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <router-link class="nav-link" to="/admin/dashboard">Home</router-link>

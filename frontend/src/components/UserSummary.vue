@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-5 text-center">
-    <!-- Navigation Bar -->
+    <!-- Navigation Bar for user-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">User Summary</a>
