@@ -130,7 +130,7 @@
     </form>
     <h2>Manage Questions</h2>
 
-    <!-- Select Quiz -->
+    <!-- Select Quiz a kind of filter-->  
     <div class="row mb-3">
       <div class="col-md-6">
         <label>Select Quiz</label>
