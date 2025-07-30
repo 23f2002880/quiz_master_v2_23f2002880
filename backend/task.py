@@ -31,7 +31,7 @@ def setup_periodic_tasks(sender, **kwargs):
     )
     
     
-    
+###for sceduled tasks and batch jobs    
 @celApp.task
 def send_unattempted_quiz_reminders():
     app = create_app()
