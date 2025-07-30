@@ -4,7 +4,7 @@
       <h2 class="mb-2">Quiz Panel</h2>
       <p> <strong>Quiz ID:</strong> {{ quizId }}</p>
     </div>
-
+    <!-- attempt quiz -->
     <!-- Timer Display -->
     <div class="text-end mb-3">
       <strong>Time Left:</strong> {{ formattedTime }}
