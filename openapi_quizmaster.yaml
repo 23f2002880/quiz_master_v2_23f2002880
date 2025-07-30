@@ -427,7 +427,7 @@ components:
   /api/user/export-csv:
     post:
       tags: [User]
-      summary: Trigger CSV export task
+      summary: Trigger CSV export tasks
       security:
         - bearerAuth: []
       responses:
