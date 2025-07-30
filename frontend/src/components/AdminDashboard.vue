@@ -51,7 +51,7 @@
           </tr>
         </tbody>
       </table>
-      <div v-if="successMessage === '✅ Subject updated'" class="alert alert-success mt-3">{{ successMessage }}</div>
+      <div v-if="successMessage === ' Subject updated'" class="alert alert-success mt-3">{{ successMessage }}</div>
 
       <h4>Add New Subject</h4>
       <form @submit.prevent="addSubject">
@@ -59,7 +59,7 @@
         <input v-model="newSubject.description" class="form-control mb-2" placeholder="Subject description">
         <button class="btn btn-primary">Add Subject</button>
       </form>
-      <div v-if="successMessage === '✅ Subject added successfully!'" class="alert alert-success mt-3">{{ successMessage }}</div>
+      <div v-if="successMessage === ' Subject added successfully!'" class="alert alert-success mt-3">{{ successMessage }}</div>
 
       </div>
       <hr>
